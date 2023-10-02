@@ -1,0 +1,13 @@
+.timeline {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .t-left {
+    flex: 0.7;
+  }
+  
+  .t-right {
+    flex: 0.3;
+  }
+  

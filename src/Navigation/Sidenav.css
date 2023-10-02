@@ -1,0 +1,39 @@
+.sidenav{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+}
+.s-logo{
+    width: 120px;
+    margin: 25px;
+}
+.sidenav-button{
+    display: flex;
+    flex-direction: column;
+
+}
+.sidenav-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    background: 0;
+    border: 0;
+    margin: 5px 10px 5px 10px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.sidenav-btn:hover {
+    cursor: pointer;
+    font-weight: 700;
+    
+}
+
+.sidenav-more{
+    position: fixed;
+    bottom: 3px;
+}

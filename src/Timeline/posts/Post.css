@@ -1,0 +1,47 @@
+.post {
+    width: 550px;
+    margin: 30px 40px 50px 40px;
+  }
+  
+  .p-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .p-avatar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bolder;
+  }
+  
+  .p-avatar > span {
+    color: grey;
+    font-size: 15px;
+  }
+  
+  .p-image > img {
+    width: 100%;
+    border-radius: 6px;
+    border: 0.6px solid rgba(128, 128, 128, 0.516);
+  }
+  
+  
+  .p-footerIcons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .postIcon {
+    padding: 3px;
+    
+  }
+  
+  .postIcon :hover {
+    cursor: pointer;
+  }
